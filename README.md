@@ -9,4 +9,5 @@ However, this result is consistent with the paper's own experimental design: the
 key finding is that GPU acceleration on consumer hardware requires a minimum level of parallelism (likely NUM_ENVS > 512–1024) to outperform CPU. Below this threshold, JIT compilation overhead and GPU underutilisation eliminate any advantage. This is not stated in the paper but is implicitly supported by its choice of 4096 environments for GPU benchmarking.
 
 Then the 1024 envs comparision benchmark was ran in which GPU out performed CPU
+
 Credits : https://arxiv.org/abs/2511.02136
